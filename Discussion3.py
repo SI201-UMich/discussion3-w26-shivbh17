@@ -2,31 +2,17 @@ import math
 
 class Rectangle():
     # Create the constructor "__init__" method
-
-    # YOUR CODE HERE
-
-
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
 
     # Create the "__str__" method
 
-    # YOUR CODE HERE
-
-
-
     # Create the "area_calculator" method
 
-    # YOUR CODE HERE
-
-
-
     # Create the "__eq__" method
-    # 
     # Returns a boolean value
 
-    # YOUR CODE HERE
-
-
-    
 
 
 def main():
