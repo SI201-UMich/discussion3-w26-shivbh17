@@ -16,7 +16,11 @@ class Rectangle():
 
     # Create the "__eq__" method
     # Returns a boolean value
-
+    def __eq__(self, other):
+        if self.length * self.width == other.length * other.width:
+            return True
+        else:
+            return False
 
 
 def main():
