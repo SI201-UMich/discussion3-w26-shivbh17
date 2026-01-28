@@ -7,6 +7,8 @@ class Rectangle():
         self.width = width
 
     # Create the "__str__" method
+    def __str__(self):
+        return f"A rectangle with width {self.width} and length {self.length}."
 
     # Create the "area_calculator" method
 
